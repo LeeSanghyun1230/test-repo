@@ -1,4 +1,7 @@
 #class vector
+
+Lee Sang Hyun, Hankuk University of Foreign Studies
+
 class Vector:
   def __init__(self,*args):
     self._coords = list(args) # x for x in args
@@ -22,3 +25,4 @@ v[-1] = 9
 for c in v:
   print(c, end=" ")
 print()
+
